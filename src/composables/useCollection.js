@@ -12,7 +12,7 @@ const useCollection = (collection) => {
             error.value = "could not send the message";
         }
     }
-    return {error,addDoc};
+    return {error,addDoc}; 
 }
 
 export default useCollection;
